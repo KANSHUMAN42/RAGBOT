@@ -1,0 +1,1 @@
+This is RAG project, where you can interact with the Resume of the candidate.
