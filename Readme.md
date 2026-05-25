@@ -21,13 +21,14 @@ ResumeBot is designed to make resume review faster and smarter by combining docu
 
 ```mermaid
 flowchart TD
-    A[📄 Resume Source] --> B[🧾 Ingest Module (`ingest.py`)]
-    B --> C[🧠 Vector Store (Chroma)]
-    D[💬 User Question (`ask.py`)] --> E[🔍 Retrieve Relevant Resume Chunks]
+    A[📄 Resume Source] --> B[🧾 Ingest Module]
+    B --> C[🧠 Vector Store Chroma]
+    D[💬 User Question] --> E[🔍 Retrieve Resume Chunks]
     C --> E
     E --> F[🤖 LLM Answer Generation]
     F --> G[✅ ResumeBot Response]
 ```
+
 
 ## 📌 Key Use Cases
 
